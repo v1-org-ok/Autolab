@@ -1,0 +1,60 @@
+# tmp files
+log/
+tmp/cache/
+tmp/
+!tmp/restart.txt
+
+# Autolab configs
+config/autogradeConfig.rb
+assessmentConfig/
+courseConfig/
+config/environments/production.rb
+coverage/
+/courses/
+/courses
+config/database.yml
+config/school.yml
+config/lti_config.yml
+config/lti_platform_jwk.json
+config/lti_tool_jwk.json
+config/smtp_config.yml
+config/github_config.yml
+config/oauth_config.yml
+
+# Autolab user documents
+app/views/home/_topannounce.html.erb
+attachments/
+doc/
+storage/
+out.txt
+
+# compiled assets
+public/images/CourseSubmissions.png
+public/images/HourlySubmissions.png
+public/assets/
+public/stylesheets/
+vendor/
+
+# sqlite databases
+db/autolab_development
+db/autolab_test
+db/*.sqlite3
+
+# Mkdocs generated site
+site/
+
+# misc
+*.swp
+tags
+.DS_Store
+.idea/
+.yardoc
+.vscode/
+.byebug_history
+node_modules/
+# Credentials
+.env
+
+# Rails credentials
+config/master.key
+config/credentials.yml.enc
