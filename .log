@@ -1,1 +1,7 @@
 rbenv install 3.2.2
+rbenv local 3.2.2
+bundle install
+sudo apt-get install libmysqlclient-dev
+docker run -d -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=autolab_development -e MYSQL_USER=user -e MYSQL_PASSWORD=password -v db_data:/var/lib/mysql -p 3306:3306 mysql:5.7
+bundle exec rails spec
+# created school.yml

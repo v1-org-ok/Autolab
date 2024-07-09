@@ -45,8 +45,8 @@ gem 'slack-notifier'
 gem 'exception_notification', ">= 4.1.0"
 
 # Used by lib/tasks/autolab.rake to populate DB with dummy seed data
-gem 'rake', '>=10.3.2'
 gem 'populator', '>=1.0.0'
+gem 'rake', '>=10.3.2'
 
 # To communicate with MySQL database
 gem 'mysql2', '~>0.5'
@@ -178,3 +178,5 @@ gem 'uri', '0.10.3'
 
 # To generate slugged urls
 gem 'friendly_id', '~> 5.5.0'
+
+gem 'faraday-retry'
